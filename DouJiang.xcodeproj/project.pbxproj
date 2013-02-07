@@ -17,7 +17,17 @@
 		04333F4416996D4800673453 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04333F4316996D4800673453 /* Default@2x.png */; };
 		04333F4616996D4800673453 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04333F4516996D4800673453 /* Default-568h@2x.png */; };
 		04333F4916996D4800673453 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04333F4716996D4800673453 /* MainStoryboard.storyboard */; };
-		04333F4C16996D4800673453 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04333F4B16996D4800673453 /* ViewController.m */; };
+		04333F891699733900673453 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 04333F881699733900673453 /* libxml2.dylib */; };
+		04333F8B1699734000673453 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 04333F8A1699734000673453 /* libz.dylib */; };
+		04333F8D1699735100673453 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04333F8C1699735100673453 /* CFNetwork.framework */; };
+		04333F8F1699735A00673453 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04333F8E1699735A00673453 /* Security.framework */; };
+		04333F911699736400673453 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04333F901699736400673453 /* SystemConfiguration.framework */; };
+		04333F931699736B00673453 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04333F921699736B00673453 /* MobileCoreServices.framework */; };
+		04333FA516997BF100673453 /* libDoubanApiEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04333FA416997BF100673453 /* libDoubanApiEngine.framework */; };
+		0467FCE6169AD7630049AF18 /* SearchBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0467FCE5169AD7630049AF18 /* SearchBookViewController.m */; };
+		04A3213E16A0074C0025D3F1 /* BookDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A3213D16A0074C0025D3F1 /* BookDetailViewController.m */; };
+		04E854B9169FAD970025F394 /* ParaseJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E854B8169FAD970025F394 /* ParaseJSON.m */; };
+		04E854BC169FAF780025F394 /* SBJson in Resources */ = {isa = PBXBuildFile; fileRef = 04E854BB169FAF780025F394 /* SBJson */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +45,20 @@
 		04333F4316996D4800673453 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		04333F4516996D4800673453 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		04333F4816996D4800673453 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		04333F4A16996D4800673453 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04333F4B16996D4800673453 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04333F881699733900673453 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		04333F8A1699734000673453 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		04333F8C1699735100673453 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		04333F8E1699735A00673453 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		04333F901699736400673453 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		04333F921699736B00673453 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		04333FA416997BF100673453 /* libDoubanApiEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libDoubanApiEngine.framework; path = DouJiang/libDoubanApiEngine.framework; sourceTree = "<group>"; };
+		0467FCE4169AD7630049AF18 /* SearchBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchBookViewController.h; sourceTree = "<group>"; };
+		0467FCE5169AD7630049AF18 /* SearchBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchBookViewController.m; sourceTree = "<group>"; };
+		04A3213C16A0074C0025D3F1 /* BookDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookDetailViewController.h; sourceTree = "<group>"; };
+		04A3213D16A0074C0025D3F1 /* BookDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookDetailViewController.m; sourceTree = "<group>"; };
+		04E854B7169FAD970025F394 /* ParaseJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParaseJSON.h; sourceTree = "<group>"; };
+		04E854B8169FAD970025F394 /* ParaseJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParaseJSON.m; sourceTree = "<group>"; };
+		04E854BB169FAF780025F394 /* SBJson */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SBJson; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,9 +66,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04333F3016996D4800673453 /* UIKit.framework in Frameworks */,
 				04333F3216996D4800673453 /* Foundation.framework in Frameworks */,
+				04333F3016996D4800673453 /* UIKit.framework in Frameworks */,
+				04333F931699736B00673453 /* MobileCoreServices.framework in Frameworks */,
+				04333F911699736400673453 /* SystemConfiguration.framework in Frameworks */,
+				04333F8F1699735A00673453 /* Security.framework in Frameworks */,
+				04333F8D1699735100673453 /* CFNetwork.framework in Frameworks */,
 				04333F3416996D4800673453 /* CoreGraphics.framework in Frameworks */,
+				04333F8B1699734000673453 /* libz.dylib in Frameworks */,
+				04333F891699733900673453 /* libxml2.dylib in Frameworks */,
+				04333FA516997BF100673453 /* libDoubanApiEngine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +102,13 @@
 		04333F2E16996D4800673453 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				04333FA416997BF100673453 /* libDoubanApiEngine.framework */,
+				04333F921699736B00673453 /* MobileCoreServices.framework */,
+				04333F901699736400673453 /* SystemConfiguration.framework */,
+				04333F8E1699735A00673453 /* Security.framework */,
+				04333F8C1699735100673453 /* CFNetwork.framework */,
+				04333F881699733900673453 /* libxml2.dylib */,
+				04333F8A1699734000673453 /* libz.dylib */,
 				04333F2F16996D4800673453 /* UIKit.framework */,
 				04333F3116996D4800673453 /* Foundation.framework */,
 				04333F3316996D4800673453 /* CoreGraphics.framework */,
@@ -83,11 +119,16 @@
 		04333F3516996D4800673453 /* DouJiang */ = {
 			isa = PBXGroup;
 			children = (
+				04E854BB169FAF780025F394 /* SBJson */,
 				04333F3E16996D4800673453 /* AppDelegate.h */,
 				04333F3F16996D4800673453 /* AppDelegate.m */,
 				04333F4716996D4800673453 /* MainStoryboard.storyboard */,
-				04333F4A16996D4800673453 /* ViewController.h */,
-				04333F4B16996D4800673453 /* ViewController.m */,
+				0467FCE4169AD7630049AF18 /* SearchBookViewController.h */,
+				0467FCE5169AD7630049AF18 /* SearchBookViewController.m */,
+				04A3213C16A0074C0025D3F1 /* BookDetailViewController.h */,
+				04A3213D16A0074C0025D3F1 /* BookDetailViewController.m */,
+				04E854B7169FAD970025F394 /* ParaseJSON.h */,
+				04E854B8169FAD970025F394 /* ParaseJSON.m */,
 				04333F3616996D4800673453 /* Supporting Files */,
 			);
 			path = DouJiang;
@@ -163,6 +204,7 @@
 				04333F4416996D4800673453 /* Default@2x.png in Resources */,
 				04333F4616996D4800673453 /* Default-568h@2x.png in Resources */,
 				04333F4916996D4800673453 /* MainStoryboard.storyboard in Resources */,
+				04E854BC169FAF780025F394 /* SBJson in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +217,9 @@
 			files = (
 				04333F3C16996D4800673453 /* main.m in Sources */,
 				04333F4016996D4800673453 /* AppDelegate.m in Sources */,
-				04333F4C16996D4800673453 /* ViewController.m in Sources */,
+				0467FCE6169AD7630049AF18 /* SearchBookViewController.m in Sources */,
+				04E854B9169FAD970025F394 /* ParaseJSON.m in Sources */,
+				04A3213E16A0074C0025D3F1 /* BookDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,9 +298,22 @@
 		04333F5016996D4800673453 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/DouJiang\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DouJiang/DouJiang-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					../DoubanAPIEngine/DoubanAPIEngine/OtherSources,
+					../DoubanAPIEngine/DoubanAPIEngine/Sources,
+					"${SDK_DIR}/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = "DouJiang/DouJiang-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -265,9 +322,22 @@
 		04333F5116996D4800673453 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/DouJiang\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DouJiang/DouJiang-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					../DoubanAPIEngine/DoubanAPIEngine/OtherSources,
+					../DoubanAPIEngine/DoubanAPIEngine/Sources,
+					"${SDK_DIR}/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = "DouJiang/DouJiang-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -292,6 +362,7 @@
 				04333F5116996D4800673453 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
